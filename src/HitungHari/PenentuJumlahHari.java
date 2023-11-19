@@ -279,7 +279,7 @@ public class PenentuJumlahHari extends javax.swing.JFrame {
         switch (btnKeluar.getActionCommand()) {
                     case "Keluar":
                         System.out.println("Tombol Keluar ditekan");
-                        // Tambahkan kode untuk keluar dari aplikasi atau melakukan tindakan lain sesuai kebutuhan
+                        //bisa diisi baris kode atau tidak sama sekali
                         System.exit(0);
                         break;
                     default:
