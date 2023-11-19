@@ -276,7 +276,18 @@ public class PenentuJumlahHari extends javax.swing.JFrame {
     
     private void btnKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKeluarActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        switch (btnKeluar.getActionCommand()) {
+                    case "Keluar":
+                        System.out.println("Tombol Keluar ditekan");
+                        // Tambahkan kode untuk keluar dari aplikasi atau melakukan tindakan lain sesuai kebutuhan
+                        System.exit(0);
+                        break;
+                    default:
+                        System.out.println("Aksi tidak dikenali");
+                        break;
+                }
+        // System.exit(0);
+        
     }//GEN-LAST:event_btnKeluarActionPerformed
 
     private void tahunTextFieldKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_tahunTextFieldKeyTyped
